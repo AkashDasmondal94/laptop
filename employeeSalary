@@ -1,0 +1,5 @@
+import React from "react";
+
+export default function EmployeeSalary({ Salary }) {
+  return <div data-testid="employee-salary"> {Salary} </div>;
+}
